@@ -1,0 +1,14 @@
+curl 'https://ndsom.com/home/ShowCaptchaImage?1897575.17'   
+  -H 'authority: ndsom.com'   
+  -H 'sec-ch-ua: "Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"'   
+  -H 'sec-ch-ua-mobile: ?0'   
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'   
+  -H 'sec-fetch-site: same-origin'   
+  -H 'sec-fetch-mode: no-cors'
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'   
+  -H 'sec-ch-ua-platform: "Linux"   
+  -H 'sec-fetch-dest: image'   
+  -H 'referer: https://ndsom.com/Home/Login'   
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8'   
+  -H 'cookie: _Session=mycln2j3gw1tchw3jwmrutzp; __RequestVerificationToken=ASyBvZ31NS9j5wZqHID_EyNiFoSHvkXrt4uTkPBTM3Omf8l3y2XCSJpCUzJzkPYJG9CW2v32Rg_AkkDTH4Is_M4xnASejSX5JqFNv1a5mko1'   
+  --compressed --output captcha.jpg
